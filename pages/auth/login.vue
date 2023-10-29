@@ -88,7 +88,7 @@ const submitLoginForm = async (username, password) => {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(../../public/assets/login-bg.jpg) no-repeat center center fixed;
+  background: url(./../../assets/login-bg.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 </style>
