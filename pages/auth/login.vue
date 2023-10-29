@@ -16,7 +16,7 @@
 
         <div class="form-group">
           <input
-            type="text"
+            type="password"
             v-model="loginForm.password"
             class="form-control"
             placeholder="password"
@@ -36,8 +36,8 @@ import { useRouter } from "vue-router";
 const router = useRouter();
 
 const loginForm = {
-  username: "kminchelle",
-  password: "0lelplR",
+  username: "",
+  password: "",
 };
 
 const submitLoginForm = async (username, password) => {
